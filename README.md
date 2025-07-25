@@ -246,7 +246,7 @@ Feel free to extend the chatbot with additional features:
 ## 🌐 Streamlit Cloud Deployment
 
 ### Live Demo
-🔗 **[Try the Live App](https://sales-prediction-chatbot.streamlit.app)** *(Update this URL after deployment)*
+🔗 **[Try the Live App](https://salespredictionbot-n4c8qgdbzoxamf3ivhnleg.streamlit.app/)** *(Update this URL after deployment)*
 
 ### Deploy Your Own Instance
 
