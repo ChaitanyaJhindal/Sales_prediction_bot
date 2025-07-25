@@ -243,6 +243,29 @@ Feel free to extend the chatbot with additional features:
 4. Test thoroughly
 5. Submit a pull request
 
+## 🌐 Streamlit Cloud Deployment
+
+### Live Demo
+🔗 **[Try the Live App](https://sales-prediction-chatbot.streamlit.app)** *(Update this URL after deployment)*
+
+### Deploy Your Own Instance
+
+1. **Fork this repository** to your GitHub account
+2. **Go to [Streamlit Community Cloud](https://share.streamlit.io/)**
+3. **Sign in** with your GitHub account
+4. **Click "New app"** and select your forked repository
+5. **Set the main file** to `streamlit_app.py`
+6. **Configure secrets**:
+   - Go to "Advanced settings" > "Secrets"
+   - Add your OpenAI API key:
+     ```toml
+     OPENAI_API_KEY = "your-actual-openai-api-key-here"
+     ```
+7. **Click "Deploy"** and wait for the build to complete
+
+### Environment Variables
+- `OPENAI_API_KEY`: Your OpenAI API key for AI functionality
+
 ---
 
 **Happy Predicting! 🚀**
